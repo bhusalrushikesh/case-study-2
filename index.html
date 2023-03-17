@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive bloggging using JS</title>
+    <link rel="stylesheet" href="style.css">
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+        <div class="nav container">
+        <a href="#" class="logo">DY<span>Patil</span></a>
+        <a href="#" class="login">Login</a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">The D Y Patil Blog</h2>
+            <sapn class="home-subtitle">Source of great ed content</sapn>
+        </div>
+    </section>
+
+    <div class="post-filters container">
+        <span class="filter-item active-filters" data-filter='all'>All</span>
+        <span class="filter-item " data-filter='design'>Design</span>
+        <span class="filter-item " data-filter='tech'>Tech</span>
+        <span class="filter-item " data-filter='mobile'>Mobile</span>
+    </div>
+
+    <section class="post container">
+        <div class="post-box mobile">
+            <img src="img/post-1.jpg" alt="" class="post-img">
+            <h2 class="category">Mobile</h2>
+            <a href="post-page.html" class="post-title">
+                How to create best UX design with Adobe XD
+            </a>
+            <span class="post-date">12 Mar 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum odit ipsam possimus? Eum quia inventore laudantium vel tempora praesentium illo dolorum. Tempora exercitationem saepe dicta laborum magnam rerum sint sit.</p>
+            <div class="profile">
+                <img src="img/profile-1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Marques Brown</span>
+            </div>
+        </div>
+
+        <div class="post-box tech">
+            <img src="img/post-2.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="post-page.html" class="post-title">
+                How to create best UX design with Adobe XD
+            </a>
+            <span class="post-date">12 Mar 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum odit ipsam possimus? Eum quia inventore laudantium vel tempora praesentium illo dolorum. Tempora exercitationem saepe dicta laborum magnam rerum sint sit.</p>
+            <div class="profile">
+                <img src="img/profile-2.jpg" alt="" class="profile-img">
+                <span class="profile-name">Marques Brown</span>
+            </div>
+        </div>
+
+        <div class="post-box design">
+            <img src="img/post-3.jpg" alt="" class="post-img">
+            <h2 class="category">Design</h2>
+            <a href="post-page.html" class="post-title">
+                How to create best UX design with Adobe XD
+            </a>
+            <span class="post-date">12 Mar 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum odit ipsam possimus? Eum quia inventore laudantium vel tempora praesentium illo dolorum. Tempora exercitationem saepe dicta laborum magnam rerum sint sit.</p>
+            <div class="profile">
+                <img src="img/profile-3.jpg" alt="" class="profile-img">
+                <span class="profile-name">Marques Brown</span>
+            </div>
+        </div>
+
+
+        <div class="post-box mobile">
+            <img src="img/post-4.jpg" alt="" class="post-img">
+            <h2 class="category">Mobile</h2>
+            <a href="post-page.html" class="post-title">
+                How to create best UX design with Adobe XD
+            </a>
+            <span class="post-date">12 Mar 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum odit ipsam possimus? Eum quia inventore laudantium vel tempora praesentium illo dolorum. Tempora exercitationem saepe dicta laborum magnam rerum sint sit.</p>
+            <div class="profile">
+                <img src="img/profile-1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Marques Brown</span>
+            </div>
+        </div>
+
+        <div class="post-box tech">
+            <img src="img/post-5.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="post-page.html" class="post-title">
+                How to create best UX design with Adobe XD
+            </a>
+            <span class="post-date">12 Mar 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum odit ipsam possimus? Eum quia inventore laudantium vel tempora praesentium illo dolorum. Tempora exercitationem saepe dicta laborum magnam rerum sint sit.</p>
+            <div class="profile">
+                <img src="img/profile-2.jpg" alt="" class="profile-img">
+                <span class="profile-name">Marques Brown</span>
+            </div>
+        </div>
+
+        <div class="post-box design">
+            <img src="img/post-6.jpg" alt="" class="post-img">
+            <h2 class="category">Design</h2>
+            <a href="post-page.html" class="post-title">
+                How to create best UX design with Adobe XD
+            </a>
+            <span class="post-date">12 Mar 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum odit ipsam possimus? Eum quia inventore laudantium vel tempora praesentium illo dolorum. Tempora exercitationem saepe dicta laborum magnam rerum sint sit.</p>
+            <div class="profile">
+                <img src="img/profile-3.jpg" alt="" class="profile-img">
+                <span class="profile-name">Marques Brown</span>
+            </div>
+        </div>
+
+
+        <div class="post-box mobile">
+            <img src="img/post-7.jpg" alt="" class="post-img">
+            <h2 class="category">Mobile</h2>
+            <a href="post-page.html" class="post-title">
+                How to create best UX design with Adobe XD
+            </a>
+            <span class="post-date">12 Mar 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum odit ipsam possimus? Eum quia inventore laudantium vel tempora praesentium illo dolorum. Tempora exercitationem saepe dicta laborum magnam rerum sint sit.</p>
+            <div class="profile">
+                <img src="img/profile-1.jpg" alt="" class="profile-img">
+                <span class="profile-name">Marques Brown</span>
+            </div>
+        </div>
+
+        <div class="post-box tech">
+            <img src="img/post-8.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="post-page.html" class="post-title">
+                How to create best UX design with Adobe XD
+            </a>
+            <span class="post-date">12 Mar 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum odit ipsam possimus? Eum quia inventore laudantium vel tempora praesentium illo dolorum. Tempora exercitationem saepe dicta laborum magnam rerum sint sit.</p>
+            <div class="profile">
+                <img src="img/profile-2.jpg" alt="" class="profile-img">
+                <span class="profile-name">Marques Brown</span>
+            </div>
+        </div>
+
+        <div class="post-box design">
+            <img src="img/post-9.jpg" alt="" class="post-img">
+            <h2 class="category">Design</h2>
+            <a href="post-page.html" class="post-title">
+                How to create best UX design with Adobe XD
+            </a>
+            <span class="post-date">12 Mar 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum odit ipsam possimus? Eum quia inventore laudantium vel tempora praesentium illo dolorum. Tempora exercitationem saepe dicta laborum magnam rerum sint sit.</p>
+            <div class="profile">
+                <img src="img/profile-3.jpg" alt="" class="profile-img">
+                <span class="profile-name">Marques Brown</span>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <div class="footer container">
+        <p>&#169; DY Patil All Right Reserved</p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </div>
+
+
+
+    <!--JQuery Link-->
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
